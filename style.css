@@ -1,4 +1,35 @@
-body {
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 45px;
+}
+
+section.about {
+    padding: 20px;
+}
+
+section.about .title h1 {
     color: #0000ff;
-    font-family: courier;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section.about .description p {
+    font-family: sans-serif
+}
+
+section.what-i-do {
+    padding: 20px;
+}
+
+section.what-i-do .title h1 {
+    color: #0000ff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section.what-i-do .description p {
+    font-family: sans-serif
 }
