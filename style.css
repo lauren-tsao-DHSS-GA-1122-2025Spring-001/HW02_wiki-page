@@ -9,28 +9,25 @@ ul li {
     margin-right: 45px;
 }
 
-section.about {
-    padding: 20px;
-}
-
-section.about .title h1 {
+.title h1 {
     color: #0000ff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-section.about .description p {
+.description {
     font-family: sans-serif
 }
 
-section.what-i-do {
-    padding: 20px;
+section {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
 }
 
-section.what-i-do .title h1 {
-    color: #0000ff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+section.primary-block h1 {
+    font-size: 35px;
 }
 
-section.what-i-do .description p {
-    font-family: sans-serif
+section.secondary-block {
+    padding: 5px;
 }
