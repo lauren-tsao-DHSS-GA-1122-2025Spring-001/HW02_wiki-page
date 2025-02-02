@@ -9,13 +9,18 @@ ul li {
     margin-right: 45px;
 }
 
+sup {
+    line-height: 0px;
+    vertical-align: super;
+}
 .title h1 {
     color: #0000ff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .description {
-    font-family: sans-serif
+    font-family: sans-serif;
+    line-height: 28px;
 }
 
 section {
@@ -26,19 +31,27 @@ section {
 
 section.primary-block h1 {
     font-size: 35px;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
 }
 
 section.secondary-block h1 {
-    margin-bottom: -10px;
+    margin-bottom: 0px;
 }
 
 section.secondary-block {
     padding: 5px;
 }
 
+section.secondary-block ul{
+    display: block;
+}
+
+section.secondary-block ul li{
+    list-style: disc;
+}
+
 .divider {
     border-top: 1px solid #000;
-    margin: 20px 0;
+    margin-right: 20px;
   }
   
