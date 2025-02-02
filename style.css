@@ -1,10 +1,16 @@
-ul {
+.contents ul {
+    position: fixed;
     font-family: sans-serif;
     display: flex;
-    align-items: center;
+    margin-top: -10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100vw;
+    background: white;
+
 }
 
-ul li {
+.contents ul li {
     list-style: none;
     margin-right: 45px;
 }
@@ -31,6 +37,7 @@ section {
 
 section.primary-block h1 {
     font-size: 35px;
+    margin-top: 60px;
     margin-bottom: 0px;
 }
 
@@ -43,6 +50,7 @@ section.secondary-block {
 }
 
 section.secondary-block ul{
+    position: static;
     display: block;
 }
 
