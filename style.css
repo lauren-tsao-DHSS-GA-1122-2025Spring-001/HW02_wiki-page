@@ -20,7 +20,7 @@ sup {
     vertical-align: super;
 }
 .title h1 {
-    color: #0000ff;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -49,12 +49,12 @@ section.secondary-block {
     padding: 5px;
 }
 
-section.secondary-block ul{
+section.secondary-block .description ul{
     position: static;
     display: block;
 }
 
-section.secondary-block ul li{
+section.secondary-block .description ul li{
     list-style: disc;
 }
 
@@ -62,4 +62,18 @@ section.secondary-block ul li{
     border-top: 1px solid #000;
     margin-right: 20px;
   }
+
+section.secondary-block .images ul {
+    margin-left: -40px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+section.secondary-block .images ul li{
+    list-style: none;
+    margin: 2px;
+    
+}
+
+
   
