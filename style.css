@@ -26,8 +26,19 @@ section {
 
 section.primary-block h1 {
     font-size: 35px;
+    margin-bottom: -10px;
+}
+
+section.secondary-block h1 {
+    margin-bottom: -10px;
 }
 
 section.secondary-block {
     padding: 5px;
 }
+
+.divider {
+    border-top: 1px solid #000;
+    margin: 20px 0;
+  }
+  
