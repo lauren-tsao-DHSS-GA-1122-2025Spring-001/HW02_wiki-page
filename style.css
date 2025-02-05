@@ -44,12 +44,9 @@ section.primary-block h1 {
     margin-bottom: 0px;
 }
 
-section.secondary-block h1 {
+section.secondary-block h2 {
+    font-size: 29px;
     margin-bottom: 0px;
-}
-
-section.secondary-block {
-    padding: 5px;
 }
 
 section.secondary-block .description ul{
@@ -63,8 +60,11 @@ section.secondary-block .description ul li{
 
 .divider {
     border-top: 1px solid #000;
-    margin-right: 20px;
   }
+
+.images {
+    width: 0px;
+}
 
 section.secondary-block .images ul {
     margin-left: -40px;
@@ -74,7 +74,7 @@ section.secondary-block .images ul {
 
 section.secondary-block .images ul li{
     list-style: none;
-    margin: 2px;
+    margin: 5px;
     
 }
 
