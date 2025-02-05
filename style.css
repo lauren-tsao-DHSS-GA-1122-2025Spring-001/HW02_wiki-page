@@ -78,5 +78,27 @@ section.secondary-block .images ul li{
     
 }
 
+#taiyaki-img {
+    float: left;
+    margin-right: 20px;
+}
+
+#ingredients {
+    clear: both;
+}
+
+#ingredients-img {
+    float: right;
+}
+
+#history {
+    clear: both;
+}
+
+#history-img {
+    float: left;
+    margin-right: 20px;
+}
+
 
   
